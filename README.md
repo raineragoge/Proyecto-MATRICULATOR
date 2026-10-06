@@ -150,6 +150,4 @@ Aprendimos que debemos comprobar las respuestas con los documentos originales y 
 - [Google Trends](https://trends.google.com/): exportaciones aportadas por el equipo, guardadas en `data/`. La web utiliza `mundial-2004.csv` y `youtube-2008-2026.csv`. Sus fechas de exportación indicadas son 23 de septiembre y 5 de octubre de 2026, respectivamente.
 - ChatGPT: herramienta de apoyo cuyo uso se documenta arriba; sus respuestas no sustituyen las fuentes técnicas.
 
-## Comprobaciones pendientes para la entrega
-
-- Revisar las referencias técnicas y anotar las fechas reales de consulta; corregir en la web la fecha de consulta no acreditada.
+Gracias por su atención.
