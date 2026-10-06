@@ -104,19 +104,13 @@ Prompts aportados por el equipo el 6 de octubre de 2026. Debajo de cada uno expl
 
 **Resultado y aplicación en el trabajo final.** La respuesta nos proporcionó una base para comparar Python, JavaScript/Node.js, R, C++, PHP y Java según las necesidades de Matriculator. Esa comparación se refleja en las ventajas e inconvenientes del informe y en la tabla de lenguajes de la web. Nos ayudó a distinguir las herramientas adecuadas para la interfaz y los servicios web de las destinadas al reconocimiento de imágenes. Justificamos la elección de Python por sus bibliotecas, los modelos disponibles y la familiaridad del equipo, considerando C++ como alternativa de mayor rendimiento y desarrollo más complejo.
 
-#### Prompt 3. Matriz comparativa
-
-> Crea una matriz comparativa de los lenguajes de programación para el proyecto Matriculator. Evalúa cada lenguaje según los criterios establecidos, incluyendo sus ventajas e inconvenientes para la detección de matrículas, la visión artificial, la integración con una interfaz web y el desarrollo de un sistema de inteligencia artificial.
-
-**Resultado y aplicación en el trabajo final.** Utilizamos la respuesta como punto de partida para ordenar la comparación en una matriz de decisión. En la versión final evaluamos los seis lenguajes mediante diez criterios, con puntuaciones de 1 a 5 y el mismo peso para todos. Python obtiene 49 puntos, JavaScript 42, R 39, C++ 31, PHP 35 y Java 41. La matriz aparece en el informe y en la web y permite explicar nuestra elección. Revisamos las valoraciones y corregimos la diferencia inicial de 48 frente a 49 puntos para Python. Las puntuaciones representan el juicio del equipo, no mediciones de rendimiento.
-
-#### Prompt 4. Google Trends
+#### Prompt 3. Google Trends
 
 > Investiga mediante Google Trends el interés a nivel mundial por los lenguajes de programación seleccionados para Matriculator. Compara las búsquedas tanto en la web como en YouTube, utiliza el periodo histórico más amplio disponible y exporta los datos y gráficos en archivos CSV e imágenes para guardarlos en la carpeta data del proyecto.
 
 **Resultado y aplicación en el trabajo final.** Este prompt orientó la comparación del interés de búsqueda y su incorporación al proyecto. El resultado final se puede consultar en la sección Google Trends de la web y en los archivos de la carpeta [data/](data/): la página utiliza una serie de 2004 a 2026 y otra identificada por el equipo como YouTube, de 2008 a 2026. Añadimos medias, máximos, últimos valores y conclusiones sobre la evolución y la elección de Python. Aunque el prompt pedía también imágenes, la entrega genera los gráficos mediante código a partir de los datos, como exige la tarea. Los CSV no conservan todos los filtros originales y no presentamos esos filtros como verificados.
 
-#### Prompt 5. Pseudocódigo en Jupyter Notebook
+#### Prompt 4. Pseudocódigo en Jupyter Notebook
 
 > Crea un archivo pseudocodigo.ipynb con entre 20 y 50 líneas de pseudocódigo utilizando el lenguaje de inteligencia artificial elegido para Matriculator. Representa el funcionamiento básico del sistema: recibir una imagen, procesarla, detectar una posible matrícula, analizar el resultado y devolver si la matrícula parece válida o no.
 
