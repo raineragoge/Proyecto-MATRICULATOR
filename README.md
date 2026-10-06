@@ -90,27 +90,37 @@ Se incluyen fragmentos de las conversaciones del proyecto.
 
 ### Prompts de Oihan
 
-Prompts aportados por el equipo el 6 de octubre de 2026.
+Prompts aportados por el equipo el 6 de octubre de 2026. Debajo de cada uno explicamos cómo sus respuestas sirvieron de base para el trabajo final y qué revisiones o ampliaciones realizamos. Esta explicación relaciona las peticiones con los entregables; no reproduce literalmente las respuestas originales.
 
 #### Prompt 1. Idea general del proyecto
 
 > Estoy trabajando en un proyecto llamado Matriculator para una empresa de aparcamientos. La idea consiste en analizar imágenes captadas por cámaras mediante inteligencia artificial para detectar matrículas de vehículos y determinar si son matrículas reales o no.
 
+**Resultado y aplicación en el trabajo final.** La respuesta a este prompt sirvió de base para definir el problema y el objetivo de Matriculator. A partir de ella desarrollamos el apartado de la aplicación elegida del informe y la sección «Qué problema resuelve» de la web: entrada de imágenes, detección de la matrícula, lectura y presentación del resultado. Durante la elaboración concretamos el uso en entradas y salidas de aparcamientos y añadimos la iluminación auxiliar y la revisión humana. También delimitamos la propuesta: comprobar el formato de una matrícula no demuestra por sí solo que sea auténtica.
+
 #### Prompt 2. Comparación de lenguajes de programación
 
 > Analiza qué lenguajes de programación serían más adecuados para desarrollar Matriculator, un sistema de detección de matrículas mediante imágenes y visión artificial. Compara Python, JavaScript con Node.js, R, C++, PHP y Java, teniendo en cuenta la facilidad de aprendizaje, legibilidad y mantenimiento, integración con webs, API y bases de datos, análisis estadístico, bibliotecas de inteligencia artificial, modelos preentrenados, rendimiento, despliegue, documentación, comunidad y compatibilidad.
+
+**Resultado y aplicación en el trabajo final.** La respuesta nos proporcionó una base para comparar Python, JavaScript/Node.js, R, C++, PHP y Java según las necesidades de Matriculator. Esa comparación se refleja en las ventajas e inconvenientes del informe y en la tabla de lenguajes de la web. Nos ayudó a distinguir las herramientas adecuadas para la interfaz y los servicios web de las destinadas al reconocimiento de imágenes. Justificamos la elección de Python por sus bibliotecas, los modelos disponibles y la familiaridad del equipo, considerando C++ como alternativa de mayor rendimiento y desarrollo más complejo.
 
 #### Prompt 3. Matriz comparativa
 
 > Crea una matriz comparativa de los lenguajes de programación para el proyecto Matriculator. Evalúa cada lenguaje según los criterios establecidos, incluyendo sus ventajas e inconvenientes para la detección de matrículas, la visión artificial, la integración con una interfaz web y el desarrollo de un sistema de inteligencia artificial.
 
+**Resultado y aplicación en el trabajo final.** Utilizamos la respuesta como punto de partida para ordenar la comparación en una matriz de decisión. En la versión final evaluamos los seis lenguajes mediante diez criterios, con puntuaciones de 1 a 5 y el mismo peso para todos. Python obtiene 49 puntos, JavaScript 42, R 39, C++ 31, PHP 35 y Java 41. La matriz aparece en el informe y en la web y permite explicar nuestra elección. Revisamos las valoraciones y corregimos la diferencia inicial de 48 frente a 49 puntos para Python. Las puntuaciones representan el juicio del equipo, no mediciones de rendimiento.
+
 #### Prompt 4. Google Trends
 
 > Investiga mediante Google Trends el interés a nivel mundial por los lenguajes de programación seleccionados para Matriculator. Compara las búsquedas tanto en la web como en YouTube, utiliza el periodo histórico más amplio disponible y exporta los datos y gráficos en archivos CSV e imágenes para guardarlos en la carpeta data del proyecto.
 
+**Resultado y aplicación en el trabajo final.** Este prompt orientó la comparación del interés de búsqueda y su incorporación al proyecto. El resultado final se puede consultar en la sección Google Trends de la web y en los archivos de la carpeta [data/](data/): la página utiliza una serie de 2004 a 2026 y otra identificada por el equipo como YouTube, de 2008 a 2026. Añadimos medias, máximos, últimos valores y conclusiones sobre la evolución y la elección de Python. Aunque el prompt pedía también imágenes, la entrega genera los gráficos mediante código a partir de los datos, como exige la tarea. Los CSV no conservan todos los filtros originales y no presentamos esos filtros como verificados.
+
 #### Prompt 5. Pseudocódigo en Jupyter Notebook
 
 > Crea un archivo pseudocodigo.ipynb con entre 20 y 50 líneas de pseudocódigo utilizando el lenguaje de inteligencia artificial elegido para Matriculator. Representa el funcionamiento básico del sistema: recibir una imagen, procesarla, detectar una posible matrícula, analizar el resultado y devolver si la matrícula parece válida o no.
+
+**Resultado y aplicación en el trabajo final.** La respuesta sirvió de base para describir el proceso de recepción y validación de la imagen, preparación, detección, OCR, comprobación de formato y confianza, revisión humana y presentación del resultado. Este contenido se recoge en el informe y en [pseudocodigo.ipynb](pseudocodigo.ipynb). El notebook conserva el pseudocódigo aportado por el equipo en una celda Markdown, porque describe la lógica sin constituir un programa ejecutable. La web incorpora además un resumen ampliado con iluminación auxiliar y clasificación de tipo y país. Así, el prompt contribuyó a explicar la estructura del programa y sus controles de error.
 
 Los prompts se conservan como evidencia de las solicitudes originales. La propuesta final limita la validación a la lectura y al formato plausible, sin garantizar autenticidad. En la web, los gráficos se generan con los datos y no se sustituyen por capturas.
 
