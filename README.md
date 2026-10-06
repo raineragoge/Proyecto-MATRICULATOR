@@ -4,13 +4,15 @@ Propuesta técnica RA1 sobre lenguajes de programación para una aplicación de 
 
 ## Enlaces y entregables
 
-- [Web del proyecto](https://matriculator-ra1-ian.rainer-agoge.chatgpt.site)
+- [Web del proyecto en Netlify](https://proyecto-matriculator.netlify.app/)
+- [Versión en ChatGPT Sites](https://matriculator-ra1-ian.rainer-agoge.chatgpt.site)
 - [Informe completo](Proyecto%20MATRICULATOR.pdf)
 - [Notebook de pseudocódigo](pseudocodigo.ipynb)
 - [Demostración de formatos](demo_lenguajes.ipynb)
 - [Código de la web](index.html)
 - [CSV de Google Trends](data/)
-- Publicación en Netlify: pendiente de incorporar su URL.
+
+La versión de Netlify se publicó mediante una subida manual de los archivos de la web; los cambios futuros en GitHub requieren volver a desplegarla.
 
 La web es estática: se puede abrir `index.html` en un navegador. Debe mantenerse la carpeta `data/` junto a ese archivo para descargar los CSV. La demostración de formatos utiliza bibliotecas incluidas en Python y datos sintéticos. El notebook de pseudocódigo describe el proceso; no es Python ejecutable.
 
@@ -162,7 +164,4 @@ No las presentamos como documentación ya consultada por los integrantes. No se 
 
 ## Comprobaciones pendientes para la entrega
 
-- Publicar en Netlify e incorporar la URL.
 - Revisar las referencias técnicas y anotar las fechas reales de consulta; corregir en la web la fecha de consulta no acreditada.
-- Actualizar el PDF con los prompts de Oihan: la copia subida conserva el texto anterior que indicaba que no estaban disponibles.
-- Unificar la tabla de tiempos del PDF con la estimación de este README: las filas de la copia PDF suman 7,5 h previstas y 11 h reales, aunque sus totales dicen 8 h y 12 h. Aquí se mantiene la tabla acordada en la conversación, que sí suma 8 h y 12 h.
