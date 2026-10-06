@@ -150,18 +150,6 @@ Aprendimos que debemos comprobar las respuestas con los documentos originales y 
 - [Google Trends](https://trends.google.com/): exportaciones aportadas por el equipo, guardadas en `data/`. La web utiliza `mundial-2004.csv` y `youtube-2008-2026.csv`. Sus fechas de exportación indicadas son 23 de septiembre y 5 de octubre de 2026, respectivamente.
 - ChatGPT: herramienta de apoyo cuyo uso se documenta arriba; sus respuestas no sustituyen las fuentes técnicas.
 
-### Referencias técnicas propuestas por ChatGPT, pendientes de revisión por el equipo
-
-No las presentamos como documentación ya consultada por los integrantes. No se asigna una fecha de consulta que no esté acreditada.
-
-| Documento | Entidad | Enlace | Estado |
-|---|---|---|---|
-| OpenCV-Python Tutorials | OpenCV | https://docs.opencv.org/4.13.0/d6/d00/tutorial_py_root.html | Pendiente de revisión |
-| Transfer Learning for Computer Vision | PyTorch | https://docs.pytorch.org/tutorials/beginner/transfer_learning_tutorial | Pendiente de revisión |
-| csv — CSV File Reading and Writing | Python Software Foundation | https://docs.python.org/3/library/csv.html | Pendiente de revisión |
-| json — JSON encoder and decoder | Python Software Foundation | https://docs.python.org/3/library/json.html | Pendiente de revisión |
-| HTML DOM API | MDN Web Docs | https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API | Pendiente de revisión |
-
 ## Comprobaciones pendientes para la entrega
 
 - Revisar las referencias técnicas y anotar las fechas reales de consulta; corregir en la web la fecha de consulta no acreditada.
